@@ -1,6 +1,6 @@
 import Character from '../character.js';
 
-ttest('character is created', () => {
+test('character is created', () => {
   const newCh = new Character('bowman1', 'Bowman');
   expect(newCh.name).toBe('bowman1');
   expect(newCh.type).toBe('Bowman');
